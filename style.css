@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+body{
+  font-family: 'Roboto Slab', serif;
+}
+#calculator {
+  width: 320px;
+  background-color: #bcc9d2;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  text-align: center;
+}
+
+#result {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 30px 0px 30px 0px;
+  font-size: 28px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 18px auto;
+  text-align: right;
+}
+
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Roboto Slab', serif;
+}
+
+button:hover {
+  background-color: #90a9b1;
+  color: #fff;
+}
+
+button.operator {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button.equal {
+  background-color: #1fbcca;
+  color: #fff;
+}
+
+button.clear {
+  background-color: #2ecc71;
+  color: #fff;
+  width: 65%;
+
+}
+
+
+button.clearHistory{
+  background-color: #e74c3c;
+  color: #fff;
+  width: auto;
+  height: auto;
+  vertical-align: bottom;
+  font-size: 14px;
+
+}
+
+button.delete{
+  background-color: #333;
+  color: #fff;
+
+}
+button.delete :hover{
+  background-color: #90a9b1;
+
+}
+
+
+#history {
+  width: 200px;
+  height: auto;
+  background-color: #bcc9d2;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+#history p {
+  font-size: 14px;
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
